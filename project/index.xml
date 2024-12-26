@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects | Sania Wadud</title>
-    <link>http://localhost:4321/project/</link>
-      <atom:link href="http://localhost:4321/project/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://wadudsania.github.io/project/</link>
+      <atom:link href="https://wadudsania.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 07 Dec 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:4321/media/icon_hu7729264130191091259.png</url>
+      <url>https://wadudsania.github.io/media/icon_hu7729264130191091259.png</url>
       <title>Projects</title>
-      <link>http://localhost:4321/project/</link>
+      <link>https://wadudsania.github.io/project/</link>
     </image>
     
     <item>
       <title>New Capital Consensus</title>
-      <link>http://localhost:4321/project/pandas/</link>
+      <link>https://wadudsania.github.io/project/pandas/</link>
       <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:4321/project/pandas/</guid>
+      <guid>https://wadudsania.github.io/project/pandas/</guid>
       <description>&lt;p&gt;New Capital Consensus is a coalition of non-commercial, apolitical organisations that have come together to explore how the current UK investment system contributes to the country’s current problems of low productivity, inequality and low levels of investment. Its objective is to find ways to release investment capital to address societal problems, like those above and in particular, to green the economy.&lt;/p&gt;
 &lt;p&gt;The NCC coalition of organisations comprises Finstic (Financial Systems Thinking Innovation Centre), University of Leeds and Radix Big Tent and is incubated at Chatham House Sustainability Accelerator.&lt;/p&gt;
 </description>

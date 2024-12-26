@@ -3,7 +3,7 @@
 <!-- Last Published: December 26, 2024 --><html lang="en-us" dir="ltr"
       data-wc-theme-default="light">
   
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=4321&amp;path=livereload" data-no-instant defer></script>
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -40,7 +40,7 @@
   <meta name="description" content="" />
 
   
-  <link rel="alternate" hreflang="en-us" href="http://localhost:4321/experience/" />
+  <link rel="alternate" hreflang="en-us" href="https://wadudsania.github.io/experience/" />
 
   
   
@@ -126,6 +126,45 @@
 
 
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=GTM-P9HWH4DG"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'GTM-P9HWH4DG', {});
+  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+
 
 
 
@@ -157,7 +196,7 @@
   <link rel="icon" type="image/png" href="/media/icon_hu3247630877640252165.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hu4166356570829923896.png" />
 
-  <link rel="canonical" href="http://localhost:4321/experience/" />
+  <link rel="canonical" href="https://wadudsania.github.io/experience/" />
 
   
   
@@ -180,10 +219,10 @@
   <meta property="twitter:card" content="summary" />
   
   <meta property="og:site_name" content="Sania Wadud" />
-  <meta property="og:url" content="http://localhost:4321/experience/" />
+  <meta property="og:url" content="https://wadudsania.github.io/experience/" />
   <meta property="og:title" content="Experience | Sania Wadud" />
-  <meta property="og:description" content="" /><meta property="og:image" content="http://localhost:4321/media/icon_hu7729264130191091259.png" />
-    <meta property="twitter:image" content="http://localhost:4321/media/icon_hu7729264130191091259.png" /><meta property="og:locale" content="en-us" />
+  <meta property="og:description" content="" /><meta property="og:image" content="https://wadudsania.github.io/media/icon_hu7729264130191091259.png" />
+    <meta property="twitter:image" content="https://wadudsania.github.io/media/icon_hu7729264130191091259.png" /><meta property="og:locale" content="en-us" />
   
     
       <meta
@@ -257,15 +296,6 @@
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
     
       
       
@@ -323,6 +353,8 @@
         
       
     
+  
+  
   
   
   
@@ -436,8 +468,8 @@
   
   <script
     defer
-    src="/js/hugo-blox-en.min.js"
-    integrity=""
+    src="/js/hugo-blox-en.min.8c8ea06bd0420f5067e52fa727b9f92303757322ba4431774153d59a9735eadb.js"
+    integrity="sha256-jI6ga9BCD1Bn5S&#43;nJ7n5IwN1cyK6RDF3QVPVmpc16ts="
   ></script>
 
   
@@ -799,12 +831,12 @@
       </time>
       <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Responsibilities include:</p>
 <ul>
-<li>Delivered lectures and seminars across six undergraduate and postgraduate modules, with leadership responsibility as module leader for one module.</li>
-<li>Supervised and mentored master&rsquo;s and undergraduate students in their dissertation research, offering guidance on methodology and analysis.</li>
-<li>Served as Deputy Director for the Undergraduate Empirical Project, providing support to colleagues on student research and project queries.</li>
-<li>Provided academic and pastoral support as a Personal Tutor for first- and third-year students, fostering their academic and personal development.</li>
-<li>Actively contributed to the Student Recruitment Team, spearheading international recruitment initiatives, including efforts in Bangladesh.</li>
-<li>Participated as a key member of the Economics and Government Resit Exam Board, contributing to decision-making processes.</li>
+<li>Engage in collaborative efforts as the lead researcher within the New Capital Consensus (NCC) project in collaboration with Chatham House Sustainability Accelerator, aiming to advance a practical theory of finance beyond traditional models (e.g., the Efficient Markets Hypothesis), emphasising sustainability and systemic resilience.</li>
+<li>Perform detailed stock analyses focusing on UK investment system particularly in pension, insurance and wealth management using systems thinking approach, evaluating performance metrics, financial health, and market trends to provide actionable insights.</li>
+<li>Coordinate with the London Stock Exchange’s Capital Markets Industry Taskforce, the Tony Blair Institute for Global Change, New Financial, and other stakeholders to foster comprehensive reform within finance.</li>
+<li>Co-authoring white papers with academic collaborators (e.g., Prof Iain Clacher), to shape policy discussions on financial sector reforms, thereby informing ongoing discussions with the UK Treasury, Department for Work and Pensions, and Department for Business and Trade.</li>
+<li>Undertake independent research projects, formulating hypotheses, conducting analyses to advance understanding in relevant areas of macroeconomics, sustainable finance, climate change and financial system.</li>
+<li>Present research outcomes at academic conferences, policy forums, and stakeholder gatherings, leveraging diverse communication channels (journal publications, policy briefs, and seminars).</li>
 </ul></div>
 
       
@@ -829,10 +861,14 @@
       </time>
       <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Responsibilities include:</p>
 <ul>
-<li>Designed and developed interactive workshop materials, including solutions to problem sets, for the postgraduate course in Portfolio Analysis and Management.</li>
-<li>Led and facilitated bi-weekly computer workshops for four student groups, focusing on lecture review, discussions, and applied learning.</li>
-<li>Provided academic guidance and support to approximately 270 students, addressing course content, problem-solving, and related queries.</li>
-<li>Achieved excellent student evaluations, initiated as part of personal skills development and continuous improvement efforts.</li>
+<li>Delivered lectures and seminars across six undergraduate and postgraduate modules, with leadership responsibility as module leader for one of the courses, integrating inclusive and diverse teaching strategies- such as case studies reflecting multinational perspectives to ensure equitable engagement for all students.</li>
+<li>Supervised and mentored master&rsquo;s and undergraduate students in their dissertation research, offering guidance on methodology and analysis.</li>
+<li>Consistently received excellent student evaluations, averaging 4.5/5 across taught modules.</li>
+<li>Served as Deputy Director for the Undergraduate Empirical Project, supporting and mentoring colleagues and students on research queries.</li>
+<li>Served as the academic supervisor and primary point of contact for undergraduate students undertaking a placement year (internship) between their second and final years of study.</li>
+<li>Provided academic and pastoral support as a Personal Tutor for first- and third-year students, fostering their academic and personal development.</li>
+<li>Actively contributed to the Student Recruitment Team, spearheading international recruitment initiatives, including efforts in Bangladesh.</li>
+<li>Participated as a key Economics and Government Resit Exam Board member, contributing to decision-making processes.</li>
 </ul></div>
 
       
@@ -857,10 +893,10 @@
       </time>
       <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Responsibilities include:</p>
 <ul>
-<li>Conducted research under the supervision of Prof. Ben Marshall and Prof. Martin Young, contributing to their ongoing projects.</li>
-<li>Assisted Prof. Srikanto Chatterjee with various data analyses in economics, supporting research initiatives.</li>
-<li>Developed presentation materials for seminars and academic presentations.</li>
-<li>Evaluated and graded problem sets and exams, providing detailed feedback on student</li>
+<li>Worked under the supervision of Professor Ben Marshall and Professor Martin Young, contributing to ongoing research projects on commodity pricing through data collection, analysis, and reporting.</li>
+<li>Assisted Professor Srikanto Chatterjee in performing advanced data analyses for economics-focused research initiatives, applying statistical and econometric techniques to support policy-relevant and theoretical inquiries.</li>
+<li>Created presentation materials for seminars and academic conferences, ensuring clarity and scholarly rigour.</li>
+<li>Evaluated and graded problem sets and examinations, offering detailed, constructive feedback to students to enhance their understanding of course material and strengthen their analytical skills.</li>
 </ul></div>
 
       
@@ -885,11 +921,12 @@
       </time>
       <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Responsibilities include:</p>
 <ul>
-<li>Planned and delivered instructional activities designed to promote active learning and student engagement.</li>
-<li>Taught courses in Business Strategy, Financial Accounting, Financial Management, and Introduction to Business.</li>
-<li>Monitored and assessed students&rsquo; performance and development, providing constructive feedback to enhance learning outcomes.</li>
-<li>Provided pastoral support, advising and counselling students facing academic challenges while fostering an encouraging learning environment.</li>
-<li>Supervised approximately six undergraduate dissertation students per semester and served as an internal examiner for around two MBA students specialising in finance and accounting each semester.</li>
+<li>Planned and delivered instructional activities to promote active learning and student engagement, integrating case studies and group projects.</li>
+<li>Taught courses in Business Strategy, Financial Accounting, Financial Management, and Introduction to Business, employing diverse pedagogical approaches to accommodate a range of learning styles.</li>
+<li>Monitored and assessed students&rsquo; performance and development, providing constructive feedback to enhance intellectual growth and improve learning outcomes.</li>
+<li>Provided pastoral support, advising and counselling students facing academic challenges while ensuring a supportive, inclusive learning environment.</li>
+<li>Supervised approximately six undergraduate dissertation students per semester, advising them on research design, data analysis, and scholarly writing.</li>
+<li>Served as an internal examiner for around two MBA students specialising in finance and accounting each semester, maintaining rigour and consistency in the evaluation process.</li>
 </ul></div>
 
       
@@ -999,8 +1036,10 @@
       </time>
       <div class="mb-4 text-base font-normal text-gray-500 dark:text-gray-300 text-wrap prose prose-slate dark:prose-invert"><p>Responsibilities include:</p>
 <ul>
-<li>Data handling of PPI records and maintenance through various bespoke in-house customer databases.</li>
-<li>Trained new hires when required as a result of exceeding targets and maintaining quality.</li>
+<li>Conducted comprehensive data handling of PPI records and maintained accuracy and integrity through various bespoke in-house customer databases.</li>
+<li>Performed regular reconciliations to identify and resolve discrepancies, ensuring compliance with internal controls and regulatory requirements.</li>
+<li>Developed onboarding materials and provided ongoing support, sharing best practices to ensure consistent performance in data reconciliation tasks.</li>
+<li>Trained new hires following demonstrated excellence in meeting targets and maintaining high-quality standards.</li>
 </ul></div>
 
       
