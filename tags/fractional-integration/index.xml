@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fractional Integration | Sania Wadud</title>
-    <link>https://wadudsania.github.io/tags/fractional-integration/</link>
-      <atom:link href="https://wadudsania.github.io/tags/fractional-integration/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:4321/tags/fractional-integration/</link>
+      <atom:link href="http://localhost:4321/tags/fractional-integration/index.xml" rel="self" type="application/rss+xml" />
     <description>Fractional Integration</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Jun 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://wadudsania.github.io/media/icon_hu7729264130191091259.png</url>
+      <url>http://localhost:4321/media/icon_hu7729264130191091259.png</url>
       <title>Fractional Integration</title>
-      <link>https://wadudsania.github.io/tags/fractional-integration/</link>
+      <link>http://localhost:4321/tags/fractional-integration/</link>
     </image>
     
     <item>
       <title>Informational Efficiency of World Oil Markets: One Great Ocean, but not all Seas are alike</title>
-      <link>https://wadudsania.github.io/publication/preprint/paper2/</link>
+      <link>http://localhost:4321/publication/preprint/paper2/</link>
       <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>https://wadudsania.github.io/publication/preprint/paper2/</guid>
+      <guid>http://localhost:4321/publication/preprint/paper2/</guid>
       <description></description>
     </item>
     
