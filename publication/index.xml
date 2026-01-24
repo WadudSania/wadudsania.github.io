@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications | Sania Wadud</title>
+    <link>https://wadudsania.github.io/publication/</link>
+      <atom:link href="https://wadudsania.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 03 Mar 2025 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wadudsania.github.io/media/icon_hu_cf8d6308acd3cf7c.png</url>
+      <title>Publications</title>
+      <link>https://wadudsania.github.io/publication/</link>
+    </image>
+    
+    <item>
+      <title>Cryptocurrency Co-Movement: Competition in Currency vs. Purchasing Power Parity</title>
+      <link>https://wadudsania.github.io/publication/preprint/paper6/</link>
+      <pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/preprint/paper6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Measuring Multi-Scale Connectedness Between Green Bond and Green Equity using a Thick Pen Method</title>
+      <link>https://wadudsania.github.io/publication/preprint/paper5/</link>
+      <pubDate>Sun, 02 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/preprint/paper5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My name is bond. Green bond. Informational Efficiency of Climate Finance Markets</title>
+      <link>https://wadudsania.github.io/publication/journal-article/paper2/</link>
+      <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/journal-article/paper2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radiative Forcing and Global Temperatures: 800,000 Years of Co-Movement</title>
+      <link>https://wadudsania.github.io/publication/preprint/paper7/</link>
+      <pubDate>Wed, 11 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/preprint/paper7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Samuelson and Co - Revisiting the Relationship Between Equity and Commodity Markets: It&#39;s Complicated</title>
+      <link>https://wadudsania.github.io/publication/preprint/paper4/</link>
+      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/preprint/paper4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Oil Market Efficiency, Arrival of Information, and Oil Market Turbulence</title>
+      <link>https://wadudsania.github.io/publication/preprint/paper3/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/preprint/paper3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Informational Efficiency of World Oil Markets: One Great Ocean, but not all Seas are alike</title>
+      <link>https://wadudsania.github.io/publication/preprint/paper2/</link>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/preprint/paper2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Co-movement between commodity and equity markets revisited—An application of the Thick Pen method</title>
+      <link>https://wadudsania.github.io/publication/journal-article/paper1/</link>
+      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/journal-article/paper1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Dynamic Interplay of Crude Oil Futures and Equity Markets Across Pre- and Post-Financialisation Eras</title>
+      <link>https://wadudsania.github.io/publication/preprint/paper1/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/preprint/paper1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

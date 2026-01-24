@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3 | Sania Wadud</title>
+    <link>https://wadudsania.github.io/publication_types/3/</link>
+      <atom:link href="https://wadudsania.github.io/publication_types/3/index.xml" rel="self" type="application/rss+xml" />
+    <description>3</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://wadudsania.github.io/media/icon_hu_cf8d6308acd3cf7c.png</url>
+      <title>3</title>
+      <link>https://wadudsania.github.io/publication_types/3/</link>
+    </image>
+    
+    <item>
+      <title>Oil Market Efficiency, Arrival of Information, and Oil Market Turbulence</title>
+      <link>https://wadudsania.github.io/publication/preprint/paper3/</link>
+      <pubDate>Wed, 12 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/preprint/paper3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Informational Efficiency of World Oil Markets: One Great Ocean, but not all Seas are alike</title>
+      <link>https://wadudsania.github.io/publication/preprint/paper2/</link>
+      <pubDate>Thu, 06 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/preprint/paper2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Dynamic Interplay of Crude Oil Futures and Equity Markets Across Pre- and Post-Financialisation Eras</title>
+      <link>https://wadudsania.github.io/publication/preprint/paper1/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://wadudsania.github.io/publication/preprint/paper1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
